@@ -15,7 +15,7 @@ This project provides a real-time dashboard for monitoring a production line, fe
 ## Setup Steps
 
 1. **Clone the repository**
-	git clone <your-repo-url>
+	git clone <https://github.com/AmrHassans/pe_assessment_si>
 	cd pe_simple_assessment
 	```
 
@@ -44,7 +44,10 @@ The dashboard communicates with the simulator using a TCP socket and newline-del
 ```json
 {"sensor": "Temperature_1", "value": 28.5, "ts": 1700000000.0, "status": "OK"}
 ```
-
+## Maintenannce Tab Password
+```
+admin123
+```
 **Protocol Functions:**
 - See `src/common/protocol.py` for encoding/decoding details.
 
