@@ -1,0 +1,16 @@
+{
+  "limits": {
+    "Temperature_1":  { "low": 10.0, "high": 40.0, "unit": "C" },
+    "Temperature_2":  { "low": 10.0, "high": 40.0, "unit": "C" },
+    "Pressure_1": { "low": 0.8,  "high": 1.2,  "unit": "bar" },
+    "Vibration_1":   { "low": 0.0,  "high": 5.0,  "unit": "mm/s" },
+    "Flow_1":  { "low": 5.0,  "high": 20.0, "unit": "L/min" }
+  },
+  "sim_profile": {
+    "Temperature_1":  { "base": 28.0, "noise": 1.5 },
+    "Temperature_2":  { "base": 30.0, "noise": 1.8 },
+    "Pressure_1": { "base": 1.0,  "noise": 0.03 },
+    "Vibration_1":   { "base": 1.5,  "noise": 0.4 },
+    "Flow_1":  { "base": 12.0, "noise": 0.8 }
+  }
+}

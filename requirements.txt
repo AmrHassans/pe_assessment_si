@@ -1,0 +1,7 @@
+PyQt6
+pyqtgraph
+fastapi
+uvicorn
+pytest
+httpx
+websockets
